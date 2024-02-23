@@ -1,0 +1,13 @@
+#signupform{
+    margin-top: 50px;
+    align-items: center;
+    
+}
+.row{
+    margin-top: 10px;
+}
+
+#submit{
+    margin-bottom: 10px;
+    padding-right: 20px;
+}

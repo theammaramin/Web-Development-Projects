@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <title>Manager Dashboard</title>
+</head>
+<body>
+    
+    <p>Welcome</p>
+    <button type="delete_appointments" id="delete_appointments">Delete Collective Customer Appointments?</button>
+    <button type="check_stock" id="check_stock">Check Food Stock?</button>
+    <button type="upd_stock" id="upd_stock">Update Food Stock?</button>
+    <button type="man_emp" id="man_emp">Manage Employees?</button>
+    <button type="read_comp" id="read_comp">Read Customer Complaints?</button>
+    <button type="upd_comp" id="upd_comp">Update Customer Complaints?</button>
+    <button type="cus_wallet_btn" id="cus_wallet_btn">Update Customer Wallet</button>
+    <button type="del_acc" id="del_acc">Delete Customer Account?</button>
+    <button type="logout_btn" id="logout_btn">Log out</button>
+
+    <pre id="disp_complaints"></pre>
+
+    <p id="ins_emp"></p>
+    <p id="upd_emp"></p>
+    <p id="del_emp"></p>
+
+    <p id="add_wallet"></p>
+    <p id="sub_wallet"></p>
+
+    <p id="disp_milk"></p>
+    <p id="disp_eggs"></p>
+    <p id="disp_meat"></p>
+    <p id="disp_chicken"></p>
+    <p id="disp_ice_cream"></p>
+    <p id="disp_tomatoe"></p>
+    <p id="disp_onion"></p>
+    <p id="disp_cheese"></p>
+
+</body>
+<script type="module" src="DISP_MAN_DASH.js"></script>
+</html>

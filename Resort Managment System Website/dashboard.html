@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <title>RMS</title>
+
+  <style>
+    #logout_btn {
+      margin-left: 1020px;
+    }
+
+    .brand {
+      margin-left: 100px;
+    }
+
+
+
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand brand" href="#">R.M.S</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto listnav">
+
+
+
+        <li class="nav-item">
+          <button type="logout_btn" id="logout_btn" class="btn btn-danger">Log out</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 id="welcome">Welcome</h2>
+  <p id="l-name"></p>
+
+  <table class="table">
+    <tr>
+      <td>
+        <p>Book Room?</p>
+      </td>
+      <td><button type="YES1" id="YES1" class="btn btn-primary">YES</button></td>
+      <td>
+        <pre id="arrPrint1"></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Book Spa?</p>
+      </td>
+      <td><button type="YES2" id="YES2" class="btn btn-primary">YES</button></td>
+      <td>
+        <pre id="arrPrint2"></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Book Car?</p>
+      </td>
+      <td><button type="YES3" id="YES3" class="btn btn-primary">YES</button></td>
+      <td>
+        <pre id="arrPrint3"></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Book Games Slot?</p>
+      </td>
+      <td><button type="YES7" id="YES7" class="btn btn-primary">YES</button></td>
+      <td>
+        <pre id="arrPrint7"></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Book Gym Slot?</p>
+      </td>
+      <td><button type="YES4" id="YES4" class="btn btn-primary">YES</button></td>
+      <td>
+        <pre id="arrPrint4"></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Book Pool Slot?</p>
+      </td>
+      <td><button type="YES5" id="YES5" class="btn btn-primary">YES</button></td>
+      <td>
+        <pre id="arrPrint5"></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Book Massage Slot?</p>
+      </td>
+      <td><button type="YES6" id="YES6" class="btn btn-primary">YES</button></td>
+      <td>
+        <pre id="arrPrint6"></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Request Service?</p>
+      </td>
+      <td><button type="YES8" id="YES8" class="btn btn-primary">YES</button></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <p id="Print_service_room"></p>
+  <p id="Print_service_laundry"></p>
+  <p id="Print_service_tour"></p>
+
+  <p>Register Complaint</p>
+  <input type="text" id="comp" maxlength="200" size="200">
+  <button type="submit_comp" id="submit_comp" class="btn btn-warning">Submit Complaint</button>
+  <br></br>
+
+  <button type="button" class="btn btn-primary" onclick="window.location.href='/curr_status.html';">Status</button>
+  <button type="pay_btn" id="pay_btn">Pay Bill</button>
+  <button type="logout_btn" id="logout_btn">Log out</button>
+
+</body>
+<script type="module" src="DISP_DASH.js"></script>
+
+</html>
