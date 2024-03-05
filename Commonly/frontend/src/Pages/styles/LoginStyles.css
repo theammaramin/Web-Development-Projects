@@ -1,0 +1,50 @@
+/* LoginStyles.css */
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-card {
+    max-width: 400px;
+    width: 200%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .form-control {
+    border: 1px solid #ced4da; /* Light gray border */
+  }
+  
+  .btn-success {
+    background-color: #007bff; /* Blue */
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .btn-danger {
+    background-color:#007bff;  /* Red */
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #0056b3; /* Darker red on hover */
+  }
+  
+  .linkStyle {
+    color:#f8f9fa ;
+    text-decoration: none;
+  }
+  
+  .linkStyle:hover {
+    text-decoration: none;
+    color: #0056b3; /* Darker blue on hover */
+  }
+  

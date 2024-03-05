@@ -1,0 +1,41 @@
+/* AddStyles.css */
+
+.container-fluid {
+  min-height: 100vh; /* Ensure minimum height covers the entire viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers content horizontally */
+}
+
+.card {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.card input,
+.card select {
+  width: 100%;
+  margin-bottom: 15px; /* Add margin between form fields */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  width: 100%;
+  margin-top: 15px; 
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.bg-light {
+  background-color: #80b1e1; /* Set your desired background color */
+}

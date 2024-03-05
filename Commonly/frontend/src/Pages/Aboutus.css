@@ -1,0 +1,28 @@
+/* Aboutus.css */
+
+.aboutus-container {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #f0f2f5;
+  border-radius: 10px;
+}
+
+.aboutus-title {
+  color: #004080;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.aboutus-text {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.lead {
+  font-size: 28px;
+  font-weight: bold;
+  color: #004080;
+  margin-bottom: 20px;
+}
